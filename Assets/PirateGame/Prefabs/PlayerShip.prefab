@@ -332,10 +332,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1111606704961645427}
   - {fileID: 3546509290863381763}
   - {fileID: 7731349952875806981}
   - {fileID: 1774438444220844751}
+  - {fileID: 1111606704961645427}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &6865861122774781833
@@ -427,6 +427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ac7d8bc93d79764dbd44362499495c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  handling: {fileID: 0}
   forwardSpeed: 3.5
   reverseSpeed: 1.75
   turnSpeed: 110
@@ -526,8 +527,6 @@ MonoBehaviour:
   visual: {fileID: 466854303291071577}
   duration: 0.08
   flash: {r: 1, g: 0.35, b: 0.25, a: 1}
-  targetCamera: {fileID: 8363808216278598517}
-  shakeIntensity: 0.2
 --- !u!1 &6865808264278407895
 GameObject:
   m_ObjectHideFlags: 0
