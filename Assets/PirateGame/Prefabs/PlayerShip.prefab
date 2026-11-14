@@ -487,6 +487,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee5f8cdd11ef1a04ca7c973f85432cd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PirateGame.Juice.AimArcIndicator
+  aim: {fileID: 7095743117735634692}
+  health: {fileID: 6176836998576823871}
+  arc: {fileID: 6880503287555308362}
+  landing: {fileID: 1261850623791214420}
+  height: 1.2
+  radius: 0.25
+  segments: 32
 --- !u!1 &6865808264278407895
 GameObject:
   m_ObjectHideFlags: 0
