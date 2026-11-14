@@ -310,6 +310,8 @@ GameObject:
   - component: {fileID: 7095743117735634692}
   - component: {fileID: 1850660289779604851}
   - component: {fileID: 103783098229800740}
+  - component: {fileID: 9027352943465285510}
+  - component: {fileID: 2343789266913353306}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -494,6 +496,38 @@ MonoBehaviour:
   height: 1.2
   radius: 0.25
   segments: 32
+--- !u!114 &9027352943465285510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4679094287227871312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8523f6a006746624cb27e93f87e185dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PirateGame.Juice.CannonRecoil
+  visual: {fileID: 1111606704961645427}
+  distance: 0.5
+  recovery: 0.51
+--- !u!114 &2343789266913353306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4679094287227871312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0904261b7b2b234b9638cae08b7d951, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PirateGame.Juice.ShipHitFlash
+  visual: {fileID: 466854303291071577}
+  duration: 0.08
+  flash: {r: 1, g: 0.35, b: 0.25, a: 1}
+  targetCamera: {fileID: 8363808216278598517}
+  shakeIntensity: 0.2
 --- !u!1 &6865808264278407895
 GameObject:
   m_ObjectHideFlags: 0
