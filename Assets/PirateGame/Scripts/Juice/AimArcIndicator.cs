@@ -3,11 +3,16 @@ namespace PirateGame.Juice
 {
     public sealed class AimArcIndicator : MonoBehaviour
     {
-        public CannonAim aim;
+        // 실습 TODO: 마우스 조준 목표까지 포물선 모양 LineRenderer를 그린다. 사거리 내외 색상과 착탄 원을 표시한다. 실제 포탄 충돌 규칙은 변경하지 않는다.
+        // 구현은 Docs/03_JuiceTutorial.md를 따라 직접 추가합니다.
+
+        // 기초적 건강, 변수 선언
+        public CannonAim aim; 
         public ShipHealth health;
         public LineRenderer arc, landing;
         public float height = 1.2f, radius = 0.25f;
         public int segments = 32;
+
         void LateUpdate()
         {
             bool visible = aim && aim.enabled && health.IsAlive;
